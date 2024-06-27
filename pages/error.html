@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oops Error Occurred</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding-bottom: 20px;
+            font-family: 'Nunito', sans-serif;
+            color: white;
+            background-image: linear-gradient(270deg, #caf0f8 0%, #03045e 100%);
+            display: flex;
+        }
+        .container {
+            background-color: #202124;
+            opacity: .7;
+            position: relative;
+            width: 30%;
+            margin: 50px auto;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .invert {
+            filter: invert(1);
+        }
+        .text {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="imag">
+        <img src="/images/cross.png" width="100px" class="invert">
+    </div>
+    <div class="text">
+        <div>Registration Error</div>
+        <div>There was an Error During Registration! Please try again.</div>
+    </div>
+</div>
+</body>
+</html>
